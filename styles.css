@@ -1,0 +1,15 @@
+#table table {
+	border: 2px solid blue;
+	width: 50%;
+	margin-top: 5%;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-collapse: collapse;
+}
+#table th,td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+#table table thead tr th {
+	scope: col;
+}
